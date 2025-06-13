@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, MessageCircle, } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, } from 'lucide-react';
 import rupplogo from '../assets/rupplogo-removebg-preview.png';
 
 // Telegram SVG icon as a React component
