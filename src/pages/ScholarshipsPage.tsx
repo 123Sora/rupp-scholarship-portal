@@ -4,10 +4,11 @@ import ScholarshipFilters from '../components/ScholarshipFilters';
 import ScholarshipList from '../components/ScholarshipList';
 import type { FilterState } from '../types';
 import toast from 'react-hot-toast';
-import rupplogo from '../assets/rupplogo-removebg-preview.png';
+// import rupplogo from '../assets/rupplogo-removebg-preview.png';
 
 export default function ScholarshipsPage() {
   const [scholarships, setScholarships] = useState<any[]>([]);
+  // const [loading, setLoading] = useState(true);
   const [loading, setLoading] = useState(true);
   const [filters, setFilters] = useState<FilterState>({
     search: '',
@@ -39,13 +40,13 @@ export default function ScholarshipsPage() {
     setIsFiltersOpen(!isFiltersOpen);
   };
 
-  // if (loading) {
-  //   return (
-  //     <div className="flex items-center justify-center min-h-screen">
-  //       <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-rupp-red"></div>
-  //     </div>
-  //   );
-  // }
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-rupp-red"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">

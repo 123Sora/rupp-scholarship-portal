@@ -1,5 +1,5 @@
 import { Users, Heart, BookOpen, Briefcase, Home, Utensils, Shield, Headphones } from 'lucide-react';
-import rupplogo from '../assets/rupplogo-removebg-preview.png';
+// import rupplogo from '../assets/rupplogo-removebg-preview.png';
 
 export default function StudentServicesPage() {
   const services = [

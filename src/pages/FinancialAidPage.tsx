@@ -1,4 +1,4 @@
-import ruppLogo from '../assets/rupplogo-removebg-preview.png';
+// import ruppLogo from '../assets/rupplogo-removebg-preview.png';
 import { DollarSign, Calculator, FileText, CreditCard, PiggyBank, GraduationCap } from 'lucide-react';
 
 export default function FinancialAidPage() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Quote, GraduationCap, Award, Star } from 'lucide-react';
 
 export default function SuccessStoriesPage() {

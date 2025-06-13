@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { ChevronDown, ChevronUp, HelpCircle, Search, MessageCircle, Mail } from 'lucide-react';
-import rupplogo from '../assets/rupplogo-removebg-preview.png';
+import { ChevronDown, ChevronUp, HelpCircle, Search, Mail } from 'lucide-react';
+// import rupplogo from '../assets/rupplogo-removebg-preview.png';
 import iro from '../assets/iro.png';
 
 // Telegram SVG icon as a React component

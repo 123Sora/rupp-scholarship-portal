@@ -1,5 +1,5 @@
 import { HelpCircle, FileText, CheckCircle, Clock, Mail, Phone, Users } from 'lucide-react';
-import iro from '../assets/iro.png';
+// import iro from '../assets/iro.png';
 
 // Telegram SVG icon as a React component
 const TelegramIcon = (props: React.SVGProps<SVGSVGElement>) => (
